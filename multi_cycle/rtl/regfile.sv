@@ -33,7 +33,5 @@ module regfile (clk, data_in, write_en, write_reg, read_reg, data_out);
         end
     end
 
-
-
     assign data_out = x[read_reg];          //data output is at read_reg value
 endmodule
