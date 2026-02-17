@@ -1,7 +1,6 @@
-module alu(clk, in1, in2, opcode, out);
+module alu(in1, in2, opcode, out);
     parameter BIT_WIDTH = 32;
 
-    input   wire    clk
     input   wire    [BIT_WIDTH-1:0]    in1,in2;
     input   wire    [3:0]              opcode;
     output  wire    [BIT_WIDTH-1:0]    out;
