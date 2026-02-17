@@ -56,7 +56,7 @@ Implementation of a 5-stage pipeline RISC-V RV32E processor. This project was ma
 - [ ] RAM
 - [ ] Program Counter
 - [ ] Instruction Memory
-- [x] Control Unit (FSM)
+- [ ] Control Unit (FSM)
 
 ## 5 Stage Pipeline
 - FETCH (F)
